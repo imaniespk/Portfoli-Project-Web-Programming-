@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript form validation - checking email</title>
+<link rel='stylesheet' href='newstyle.css' type='text/css' />      
+</head>
+<body onload='document.form1.text1.focus()'>
+<div class="mail">
+<h2>Input an email and Submit</h2>
+<form name="form1" > 
+<ul>
+<li><input type='text' name='text1'/></li>
+<li>&nbsp;</li>
+<li class="submit"><input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/></li>
+<li>&nbsp;</li>
+</ul>
+</form>
+</div>
+<script src="newstyle.js"></script>
+<p>
+	<h2>Email Validation</h2>
+
+	<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>1</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>2</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>3</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>4</u></h1>
+<span><h1>(yourname)&nbsp;@(domain)&nbsp;.(extension)(.extension)</h1></span>
+
+<p>
+
+	<b>1. &nbsp;Any letters,numbers,dot and /or hyphens.<br>
+	2. &nbsp;Any letters,numbers,and /or hyphens.<br>
+	3. &nbsp;Any letters(a-z).<br>
+	4.  &nbsp;a dot(.),then any letter.<br></b>
+</p>	
+
+<style type="text/css">
+	p{
+		color: blue;	
+		font-size: 25px;
+	}
+	h1{
+		color: red;
+	}
+	h2{
+		color: green;
+		
+	}
+
+</style>
+
+</p>
+</body>
+</html>

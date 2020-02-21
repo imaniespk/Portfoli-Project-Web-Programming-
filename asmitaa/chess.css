@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    margin-left:400px;
+    margin-top:90px;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.black
+{
+    width:60px;
+    height:60px;
+    background-color: black;
+}
+
+.white
+{
+    width:60px;
+    height:60px;
+    background-color: white;
+    color:white;
+}
+
+h1{
+    margin:0px;
+    padding:0px;
+    
+}

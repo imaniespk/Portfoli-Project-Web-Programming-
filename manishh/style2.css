@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+}
+div{
+	background-image: url("paper.jpg");
+}
+body{
+	background-image: url("geek.png");
+	background-repeat:repeat-x;
+	background-position: ;top left,top right,top right,center left,bottom center
+	background-attachment:scroll;
+
+
+}
+body{
+	background: url("paper.jpg") no-repeat top left fixed;
+}
+
